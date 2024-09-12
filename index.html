@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Compound Interest Computer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="bank.js" defer></script>
+
+  <head>
+
+
+<body>
+  <h1>Compound Interest Calculator</h1>
+</body>
+<html>
+
+
+<main>
+  <div>
+  Principal Amount ($)
+  <input id="principal">
+  </div>
+
+  <div>
+  Interest Rate (%)
+  <input id="interest">
+  </div>
+
+  <div>
+  Compounded per Year
+  <input id="compound">
+  </div>
+
+  <div>
+  <span id="yearOutput"></span> Years
+  <input id="years" type="range" min="1" max="50" value="10" oninput="document.getElementById('yearOutput').textContent = this.value">
+  </div>
+
+
+</main>
+
+

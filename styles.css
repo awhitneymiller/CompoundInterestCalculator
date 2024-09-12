@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    /* background-color: rgb(238, 235, 229); */
+    background-image: -moz-linear-gradient(#white #rgb(238,235,229));
+    margin: 0;
+    padding: 0;
+    height: 7vh; 
+    align-content: center;
+    text-align: center;
+}
+
+main {
+    background-image: url("stars.jpeg");
+    height: 70vh;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    flex-direction: column;   
+}
