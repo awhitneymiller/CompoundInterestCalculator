@@ -4,8 +4,7 @@ body {
 }
 
 h1 {
-    /* background-color: rgb(238, 235, 229); */
-    background-image: -moz-linear-gradient(#white #rgb(238,235,229));
+    background-color: rgb(238, 235, 229);
     margin: 0;
     padding: 0;
     height: 7vh; 
@@ -21,3 +20,24 @@ main {
     align-items: center;      
     flex-direction: column;   
 }
+
+
+/*margins for label and font size */
+input, label {
+    margin-bottom: 10px;
+    font-size: 20px; 
+}
+
+input {
+    padding: 8px;
+    width: 250px; 
+    border: 1px solid #000000;
+    border-radius: 7px;
+}
+
+/* slider width */
+input[type="range"] {
+    width: 200px;
+}
+
+
