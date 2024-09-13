@@ -1,43 +1,73 @@
 body {
-    margin: 0;
-    padding: 0;
+  fin: 0;
+  padding: 0;
+  font-family: "Josefin Sans";
 }
 
-h1 {
-    background-color: rgb(238, 235, 229);
-    margin: 0;
-    padding: 0;
-    height: 7vh; 
-    align-content: center;
-    text-align: center;
+article {
+  display: grid;
+  grid-template: 50px auto 20px / 100%;
+  height: 100vh;
+}
+
+header,
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkslateblue;
+}
+
+header {
+  font-size: 40px;
+  text-shadow: 4px 1px 2px grey;
+}
+
+input,
+select {
+  border-radius: 5px;
+  border-color: black;
+  border: 2px solid;
+}
+
+footer {
+  font-style: italic;
+  font-size: 18px;
+  text-shadow: 2px 1px 2px grey;
+}
+
+a {
+  color: white;
+}
+
+form {
+  display: grid;
+  grid-template: auto auto auto auto / 10em 175px;
+  gap: 5px;
+}
+
+img {
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.2);
 }
 
 main {
-    background-image: url("stars.jpeg");
-    height: 70vh;
-    display: flex;
-    justify-content: center;  
-    align-items: center;      
-    flex-direction: column;   
+  background-image: url("stars.jpeg");
+  background-color: lightgray;
+  background-blend-mode: lighten;
+  padding: 20px 10px 0px 10px;
+  overflow: scroll;
+  font-weight: 1000;
 }
 
-
-/*margins for label and font size */
-input, label {
-    margin-bottom: 10px;
-    font-size: 20px; 
+#apr {
+  width: 105px;
 }
 
-input {
-    padding: 8px;
-    width: 250px; 
-    border: 1px solid #000000;
-    border-radius: 7px;
+#stocks {
+  width: 30em;
 }
-
-/* slider width */
-input[type="range"] {
-    width: 200px;
-}
-
-
